@@ -47,3 +47,11 @@ console.log(b)
 console.log(c)
 
 //---------------------------------------------------------------------//
+
+function func({name, age}) {
+    return `his name is ${name}, age ${age}`
+}
+
+const obj1 = {name:'Alex', age: 24}
+
+console.log(func(obj1))
